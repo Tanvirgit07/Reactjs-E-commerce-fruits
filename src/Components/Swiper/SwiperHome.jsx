@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "./SwiperHome.css";
 
 // import required modules
-import { EffectFade, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 
 const SwiperHome = () => {
   return (
@@ -21,11 +21,18 @@ const SwiperHome = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[EffectFade, Navigation, Pagination]}
+        autoplay={{
+          delay: 3000, // Time in milliseconds between slides (e.g., 3000 = 3 seconds)
+          disableOnInteraction: false, // Keeps autoplay active after user interaction
+        }}
+        modules={[EffectFade, Navigation, Pagination,Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img className="h-[56vh] object-cover bg-cover" src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img
+            className="object-cover bg-cover"
+            src="https://swiperjs.com/demos/images/nature-1.jpg"
+          />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-2.jpg" />

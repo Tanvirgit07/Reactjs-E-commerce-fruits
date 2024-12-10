@@ -15,7 +15,7 @@ const Main = () => {
       <div>
         <Search />
       </div>
-      <div className="ml-[25%] w-[55%] bg-white">
+      <div className="bg-white">
         <Outlet></Outlet>
       </div>
     </div>
