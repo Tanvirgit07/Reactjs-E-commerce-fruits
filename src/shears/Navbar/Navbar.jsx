@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center bg-[#FFFFFF] my-8">
@@ -7,11 +9,11 @@ const Navbar = () => {
 
       <div className="flex items-center divide-x gap-4">
         <div className="flex gap-10 text-sm font-bold">
-          <h1>HOME</h1>
-          <h1>BRANDS</h1>
-          <h1>CONTACT US</h1>
-          <h1>SPECIALS</h1>
-          <h1>BLOGS</h1>
+          <Link to='/'>HOME</Link>
+          <Link to='/brand'>BRANDS</Link>
+          <Link>CONTACT US</Link>
+          <Link>SPECIALS</Link>
+          <Link>BLOGS</Link>
         </div>
         <div className="flex gap-2 ml-3">
           <div className="ml-4">

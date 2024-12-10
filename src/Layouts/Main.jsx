@@ -15,7 +15,7 @@ const Main = () => {
       <div>
         <Search />
       </div>
-      <div>
+      <div className="ml-[25%] mt-8">
         <Outlet></Outlet>
       </div>
     </div>
