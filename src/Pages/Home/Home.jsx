@@ -1,5 +1,3 @@
-// import SwiperHome from "../../Components/Swiper/SwiperHome";
-
 import { CiDeliveryTruck } from "react-icons/ci";
 import SwiperHome from "../../Components/Swiper/SwiperHome";
 import { MdOutlineSavings } from "react-icons/md";

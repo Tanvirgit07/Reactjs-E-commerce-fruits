@@ -22,8 +22,8 @@ const SwiperHome = () => {
           clickable: true,
         }}
         autoplay={{
-          delay: 3000, // Time in milliseconds between slides (e.g., 3000 = 3 seconds)
-          disableOnInteraction: false, // Keeps autoplay active after user interaction
+          delay: 3000, 
+          disableOnInteraction: false, 
         }}
         modules={[EffectFade, Navigation, Pagination,Autoplay]}
         className="mySwiper"
