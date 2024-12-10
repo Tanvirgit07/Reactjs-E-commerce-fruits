@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 import "./SwiperHome.css";
 
-// import required modules
+
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 
 const SwiperHome = () => {
