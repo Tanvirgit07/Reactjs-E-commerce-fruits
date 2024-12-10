@@ -1,7 +1,9 @@
+import SwiperHome from "../../Components/Swiper/SwiperHome";
+
 const Home = () => {
     return (
-        <div>
-            <h1>this is home</h1>            
+        <div className="my-8 h-[56vh] w-fit max-w-3xl">
+            <SwiperHome/>           
         </div>
     );
 };

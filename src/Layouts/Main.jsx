@@ -9,13 +9,13 @@ const Main = () => {
       <div>
         <Welcome />
       </div>
-      <div className="container mx-auto">
+      <div className="">
         <Navbar />
       </div>
       <div>
         <Search />
       </div>
-      <div className="ml-[25%] mt-8">
+      <div className="ml-[25%] w-[55%] bg-white">
         <Outlet></Outlet>
       </div>
     </div>

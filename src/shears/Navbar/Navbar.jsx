@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center bg-[#FFFFFF] my-8">
+    <div className="flex justify-between items-center bg-[#FFFFFF] px-10 py-5 w-full">
       <div>
         <img src="https://i.ibb.co.com/j80x2Gr/logo.png" alt="shop_logo" />
       </div>
