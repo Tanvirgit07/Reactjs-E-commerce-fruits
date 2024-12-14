@@ -102,6 +102,8 @@ const Home = () => {
             </div>
           </div>
 
+          
+
           <div className="">
             {activeTab === 1 && <Product />}
             {activeTab === 2 && <div><Swiper_two/></div>}
