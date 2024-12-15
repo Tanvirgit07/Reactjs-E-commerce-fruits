@@ -11,6 +11,7 @@ import Top_left from "../../Components/Top_left/Top_left";
 import Shop_dash from "../../Components/Shop/Shop_dash";
 import Shop_left from "../../Components/Shop_dash/Shop_left";
 import Fruit from "../../Components/Fruit/Fruit";
+import Swiper_four from "../../Components/Swiper_four/Swiper_four";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -182,6 +183,12 @@ const Home = () => {
           <div>
             <Shop_dash/>
           </div>
+
+          {/* featured sections */}
+            <div className="mt-20">
+              <h1 className="text-2xl mb-5">FEATURED</h1>
+              <Swiper_four/>
+            </div>
         </div>
       </div>
     </div>

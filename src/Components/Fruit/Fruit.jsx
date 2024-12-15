@@ -1,7 +1,9 @@
 const Fruit = () => {
     return (
         <div>
-            <h1>this is fruits</h1>            
+            <div className="mt-8 h-[50vh]">
+                <img className="w-full h-full" src="https://i.ibb.co.com/Dgq9bgB/tt.png" alt="" />
+            </div>          
         </div>
     );
 };
