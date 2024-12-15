@@ -8,6 +8,9 @@ import { useState } from "react";
 import Swiper_two from "../../Components/Swiper_two/Swiper_two";
 import Swiper_three from "../../Components/Swiper_three/Swiper_three";
 import Top_left from "../../Components/Top_left/Top_left";
+import Shop_dash from "../../Components/Shop/Shop_dash";
+import Shop_left from "../../Components/Shop_dash/Shop_left";
+import Fruit from "../../Components/Fruit/Fruit";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -76,6 +79,8 @@ const Home = () => {
         {/* top_left */}
         <div className="w-[22%] ml-10">
           <Top_left />
+          <Shop_left/>
+          <Fruit/>
         </div>
 
         {/* top products */}
@@ -134,20 +139,49 @@ const Home = () => {
             )}
           </div>
 
-
           {/* Hero Home */}
           <div className="flex justify-between mt-16">
-            <div className="border-solid border-2 border-indigo-600 w-[48%] h-[45vh]">
-              <div>
-                
+            <div className="w-[49%] h-[45vh]">
+              <div className="bg-[url('https://i.ibb.co.com/HzFTndB/s2.jpg')] h-full w-full bg-cover bg-center">
+                <div className="flex justify-end">
+                  <div className="mt-14 mr-10">
+                    <h1 className="text-3xl font-bold tracking-[0.2rem]">
+                      VEGETABLE
+                    </h1>
+                    <h1 className="text-base tracking-[0.1rem] ml-1 mt-1">
+                      FRESH & HEALTHY
+                    </h1>
+                    <h1 className="mt-2 ml-1 text-lg bg-red-600 text-white inline-block px-3 py-1 font-bold">
+                      40% OFF
+                    </h1>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="border-solid border-2 border-indigo-600 w-[48%]">
-
+            <div className="w-[49%] h-[45vh]">
+              <div className="bg-[url('https://i.ibb.co.com/F8wb5h6/s3.jpg')] h-full w-full bg-cover bg-center">
+                <div className="flex justify-start">
+                  <div className="mt-14 ml-10">
+                    <h1 className="text-3xl font-bold tracking-[0.2rem]">
+                      ORGANIC
+                    </h1>
+                    <h1 className="text-sm tracking-[0.1rem] ml-1 mt-1">
+                      & ALL NATURAL VEGETABLE
+                    </h1>
+                    <h1 className="mt-2 ml-1 text-lg bg-red-600 text-white inline-block px-3 py-1 font-bold">
+                      40% OFF
+                    </h1>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
+          {/* shop_dash */}
 
+          <div>
+            <Shop_dash/>
+          </div>
         </div>
       </div>
     </div>
