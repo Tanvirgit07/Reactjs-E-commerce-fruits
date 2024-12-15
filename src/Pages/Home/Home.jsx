@@ -7,6 +7,7 @@ import Product from "../../Components/Products/Product";
 import { useState } from "react";
 import Swiper_two from "../../Components/Swiper_two/Swiper_two";
 import Swiper_three from "../../Components/Swiper_three/Swiper_three";
+import Top_left from "../../Components/Top_left/Top_left";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -72,7 +73,9 @@ const Home = () => {
       </div>
 
       <div className="flex justify-between mt-20">
-        <div className="border-solid border-2 border-red-600 w-[25%] ml-10"></div>
+        <div className="border-solid border-2 border-red-600 w-[23%] ml-10">
+          <Top_left/>
+        </div>
         <div className="w-[70%]">
           <div>
             <div className="flex justify-between items-center mb-4 mt-2">
