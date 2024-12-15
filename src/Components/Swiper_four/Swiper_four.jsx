@@ -31,7 +31,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -83,7 +83,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -135,7 +135,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -187,7 +187,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -239,7 +239,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -291,7 +291,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -343,7 +343,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -395,7 +395,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
@@ -447,7 +447,7 @@ const Swiper_four = () => {
               <div>
                 <img
                   className="h-72 bg-cover object-cover"
-                  src="https://i.ibb.co.com/gvSzByR/f1.jpg"
+                  src="https://i.ibb.co.com/bb6qVQs/s5.jpg"
                   alt=""
                 />
               </div>
