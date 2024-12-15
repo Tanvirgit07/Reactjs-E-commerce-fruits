@@ -1,3 +1,5 @@
+import { BiCommentDetail } from "react-icons/bi";
+import { FaShoppingBag } from "react-icons/fa";
 import { IoWalletSharp } from "react-icons/io5";
 
 const Top_left = () => {
@@ -15,7 +17,7 @@ const Top_left = () => {
 
       <div className="flex items-center justify-center gap-5 bg-[#FFFFFF] px-2 py-5">
         <div>
-          <IoWalletSharp  className="text-7xl text-[#F4BCC6]"/>
+          <BiCommentDetail  className="text-7xl text-[#EFEFEF]"/>
         </div>
         <div>
           <h1 className="text-base leading-[1.7] tracking-[0.2rem] font-semibold">USE WALLET</h1>
@@ -25,7 +27,7 @@ const Top_left = () => {
 
       <div className="flex items-center justify-center gap-5 bg-[#F2F2F2] px-2 py-5">
         <div>
-          <IoWalletSharp  className="text-7xl text-[#F4BCC6]"/>
+          <FaShoppingBag   className="text-7xl text-[#F4BCC6]"/>
         </div>
         <div>
           <h1 className="text-base leading-[1.7] tracking-[0.2rem] font-semibold">USE WALLET</h1>
