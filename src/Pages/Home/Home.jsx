@@ -73,30 +73,45 @@ const Home = () => {
       </div>
 
       <div className="flex justify-between mt-20">
-        <div className="border-solid border-2 border-red-600 w-[23%] ml-10">
-          <Top_left/>
+        {/* top_left */}
+        <div className="w-[22%] ml-10">
+          <Top_left />
         </div>
-        <div className="w-[70%]">
+
+        {/* top products */}
+        <div className="w-[72%]">
           <div>
             <div className="flex justify-between items-center mb-4 mt-2">
               <div>
                 <h1 className="text-2xl">TOP PRODUCTS</h1>
               </div>
-              <div className="tabs flex justify-end pb-3">
+              <div className="tabs flex justify-end pb-3 mr-5">
                 <button
-                  className={`tab ${activeTab === 1 ? "tab-active border-b-2 border--600  text-red-500" : "text-green-500"}`}
+                  className={`tab ${
+                    activeTab === 1
+                      ? "tab-active border-b-2 border--600  text-red-500"
+                      : "text-green-500"
+                  }`}
                   onClick={() => setActiveTab(1)}
                 >
                   LATEST
                 </button>
                 <button
-                  className={`tab ${activeTab === 2 ? "tab-active border-b-2 border-red-600 text-red-500" : "text-green-500"}`}
+                  className={`tab ${
+                    activeTab === 2
+                      ? "tab-active border-b-2 border-red-600 text-red-500"
+                      : "text-green-500"
+                  }`}
                   onClick={() => setActiveTab(2)}
                 >
                   SPECIAL
                 </button>
                 <button
-                  className={`tab ${activeTab === 3 ? "tab-active border-b-2 border-red-600  text-red-500" : " text-green-500"}`}
+                  className={`tab ${
+                    activeTab === 3
+                      ? "tab-active border-b-2 border-red-600  text-red-500"
+                      : " text-green-500"
+                  }`}
                   onClick={() => setActiveTab(3)}
                 >
                   BESTSELLER
@@ -105,13 +120,34 @@ const Home = () => {
             </div>
           </div>
 
-          
-
           <div className="">
             {activeTab === 1 && <Product />}
-            {activeTab === 2 && <div><Swiper_two/></div>}
-            {activeTab === 3 && <div><Swiper_three/></div>}
+            {activeTab === 2 && (
+              <div>
+                <Swiper_two />
+              </div>
+            )}
+            {activeTab === 3 && (
+              <div>
+                <Swiper_three />
+              </div>
+            )}
           </div>
+
+
+          {/* Hero Home */}
+          <div className="flex justify-between mt-16">
+            <div className="border-solid border-2 border-indigo-600 w-[48%] h-[45vh]">
+              <div>
+                
+              </div>
+            </div>
+            <div className="border-solid border-2 border-indigo-600 w-[48%]">
+
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
