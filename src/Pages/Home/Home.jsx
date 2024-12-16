@@ -14,6 +14,7 @@ import Fruit from "../../Components/Fruit/Fruit";
 import Swiper_four from "../../Components/Swiper_four/Swiper_four";
 import Banner from "../../Components/Banner/Banner";
 import Swiper_five from "../../Components/Swiper_five/Swiper_five";
+import Latest from "../../Components/Latest/Latest";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -84,7 +85,7 @@ const Home = () => {
           <Top_left />
           <Shop_left/>
           <Fruit/>
-          
+          <Latest/>
         </div>
 
         {/* top products */}
