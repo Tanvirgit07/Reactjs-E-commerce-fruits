@@ -15,6 +15,9 @@ import Swiper_four from "../../Components/Swiper_four/Swiper_four";
 import Banner from "../../Components/Banner/Banner";
 import Swiper_five from "../../Components/Swiper_five/Swiper_five";
 import Latest from "../../Components/Latest/Latest";
+import Latest_left from "../../Components/Latest_left/Latest_left";
+import Bottom_logo from "../../Components/Buttom_logo/Bottom_logo";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -83,9 +86,10 @@ const Home = () => {
         {/* top_left */}
         <div className="w-[22%] ml-10">
           <Top_left />
-          <Shop_left/>
-          <Fruit/>
-          <Latest/>
+          <Shop_left />
+          <Fruit />
+          <Latest />
+          <Latest_left />
         </div>
 
         {/* top products */}
@@ -185,27 +189,37 @@ const Home = () => {
           {/* shop_dash */}
 
           <div>
-            <Shop_dash/>
+            <Shop_dash />
           </div>
 
           {/* featured sections */}
-            <div className="mt-20">
-              <h1 className="text-2xl mb-5">FEATURED</h1>
-              <Swiper_four/>
-            </div>
+          <div className="mt-20">
+            <h1 className="text-2xl mb-5">FEATURED</h1>
+            <Swiper_four />
+          </div>
 
-            {/* banner */}
-            <div>
-              <Banner/>
-            </div>
+          {/* banner */}
+          <div>
+            <Banner />
+          </div>
 
-            {/* big swiper five */}
-            <div>
-              <h1 className="text-2xl mb-6">LATEST BLOGS</h1>
-              <Swiper_five/>
-            </div>
+          {/* big swiper five */}
+          <div>
+            <h1 className="text-2xl mb-6">LATEST BLOGS</h1>
+            <Swiper_five />
+          </div>
+
+          {/* bottom_logo */}
+          <div className="mt-16">
+            <Bottom_logo />
+          </div>
         </div>
       </div>
+
+      {/* footer */}
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 };
