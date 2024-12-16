@@ -12,6 +12,7 @@ import Shop_dash from "../../Components/Shop/Shop_dash";
 import Shop_left from "../../Components/Shop_dash/Shop_left";
 import Fruit from "../../Components/Fruit/Fruit";
 import Swiper_four from "../../Components/Swiper_four/Swiper_four";
+import Banner from "../../Components/Banner/Banner";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -188,6 +189,16 @@ const Home = () => {
             <div className="mt-20">
               <h1 className="text-2xl mb-5">FEATURED</h1>
               <Swiper_four/>
+            </div>
+
+            {/* banner */}
+            <div>
+              <Banner/>
+            </div>
+
+            {/* big swiper five */}
+            <div>
+              
             </div>
         </div>
       </div>
