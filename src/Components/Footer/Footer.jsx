@@ -1,6 +1,7 @@
 import { BiMessageDetail } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { MdLocalPhone } from "react-icons/md";
 import { TiSocialGooglePlus, TiSocialTwitter } from "react-icons/ti";
 
@@ -63,36 +64,147 @@ const Footer = () => {
       </div>
 
       {/* shoptown footer after divider */}
-      <div className="border-solid border-[1px] border-green-600 mt-8"></div>
+      <div className="border-solid border-[1px] border-green-600 mt-8 container mx-auto"></div>
 
       {/* footer address */}
-      <div>
+      <div className="flex justify-around mt-20 ml-10">
         {/* address 1 */}
-        <div>
-          <div>
-            <CiLocationOn />
-            <h1>
+        <div className="w-[25%]">
+          <div className="flex gap-3 mb-10 items-center">
+            <CiLocationOn className="text-4xl text-[#88C53F]" />
+            <h1 className="tracking-widest">
               507-UTC, Beside Apple Hospital, <br />
               Ring Road, Surat
             </h1>
           </div>
-          <div>
-            <MdLocalPhone />
-            <h1>(+91) 88 668 88222</h1>
+          <div className="flex gap-3 mb-10 items-center">
+            <MdLocalPhone className="text-3xl text-[#88C53F]" />
+            <h1 className="tracking-widest">(+91) 88 668 88222</h1>
           </div>
-          <div>
-            <BiMessageDetail />
-            <h1>shoptownhelp@gmail.com</h1>
+          <div className="flex gap-3 items-center">
+            <BiMessageDetail className="text-3xl text-[#88C53F]" />
+            <h1 className="tracking-widest">shoptownhelp@gmail.com</h1>
           </div>
         </div>
 
         {/* address 2 */}
-        <div></div>
+        <div className="w-[20%]">
+          <h1 className="text-[16px] tracking-widest font-semibold mb-4">
+            INFORMATION
+          </h1>
+          <div className="space-y-3 ml-3">
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              About Us
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Delivery Information
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Privacy Policy
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Terms & Conditions Us
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Site Map
+            </p>
+          </div>
+        </div>
         {/* address 3 */}
-        <div></div>
+        <div className="w-[20%]">
+          <h1 className="text-[16px] tracking-widest font-semibold mb-4">
+            EXTRAS
+          </h1>
+          <div className="space-y-3 ml-3">
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Brands
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Affiliates
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Specials
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Newsletters
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Contact US
+            </p>
+          </div>
+        </div>
         {/* address 4 */}
-        <div></div>
+        <div className="w-[20%]">
+          <h1 className="text-[16px] tracking-widest font-semibold mb-4">
+            MY ACCOUNT
+          </h1>
+          <div className="space-y-3 ml-3">
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              My Account
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Order History
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Wish List
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Returns
+            </p>
+            <p className="flex items-center gap-2 tracking-widest">
+              <span>
+                <FaArrowRightLong />
+              </span>
+              Downloads
+            </p>
+          </div>
+        </div>
       </div>
+      <div className="border-solid border-[1px] border-green-600 mt-20 container mx-auto"></div>
+      {/* brands */}
+      <div></div>
     </div>
   );
 };
