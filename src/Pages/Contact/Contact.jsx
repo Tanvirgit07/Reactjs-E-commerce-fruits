@@ -30,7 +30,7 @@ const Contact = () => {
             <div className="flex gap-3 items-center">
               <FaHome />
               <MdKeyboardDoubleArrowRight />
-              <h1>Brand</h1>
+              <h1>Contact Us</h1>
             </div>
           </div>
 
