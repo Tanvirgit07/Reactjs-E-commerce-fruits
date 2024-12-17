@@ -15,7 +15,7 @@ const Navbar = () => {
 
           <Link to='/brand'>BRANDS</Link>
 
-          <Link>CONTACT US</Link>
+          <Link to='/contact'>CONTACT US</Link>
 
           <Link>SPECIALS</Link>
 
