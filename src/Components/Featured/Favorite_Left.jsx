@@ -1,7 +1,9 @@
 const Featured = () => {
   return (
     <div>
-      <h1>this is featured</h1>
+      <div className="border-solid border-2 border-indigo-600">
+
+      </div>
     </div>
   );
 };

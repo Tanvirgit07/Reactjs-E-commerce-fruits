@@ -17,7 +17,8 @@ import Swiper_five from "../../Components/Swiper_five/Swiper_five";
 import Latest from "../../Components/Latest/Latest";
 import Latest_left from "../../Components/Latest_left/Latest_left";
 import Bottom_logo from "../../Components/Buttom_logo/Bottom_logo";
-import Footer from "../../Components/Footer/Footer";
+import Subscribe from "../../Components/Subscribe/Subscribe";
+// import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -216,10 +217,9 @@ const Home = () => {
         </div>
       </div>
 
-      {/* footer */}
-      <footer>
-        <Footer/>
-      </footer>
+      <div>
+        <Subscribe/>
+      </div>
     </div>
   );
 };

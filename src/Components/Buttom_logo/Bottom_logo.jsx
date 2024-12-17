@@ -16,7 +16,7 @@ const Bottom_logo = () => {
   return (
     <div>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={5}
         spaceBetween={1}
         freeMode={true}
         pagination={false}
@@ -24,7 +24,7 @@ const Bottom_logo = () => {
         className="mySwiper"
       >
         <SwiperSlide className="">
-          <div className="h-[30vh] border w-full">
+        <div className="h-[30vh] border w-[80%]">
             <img
               className="w-full h-full p-5"
               src="https://i.ibb.co.com/hZJWHfP/l1.jpg"

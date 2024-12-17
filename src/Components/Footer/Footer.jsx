@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div>
       {/* footer email send            */}
-      <div className="h-[17vh] bg-[#6DAC23] mt-16 flex justify-around">
+      {/* <div className="h-[17vh] bg-[#6DAC23] mt-16 flex justify-around">
         <div className="flex items-center w-[45%]">
           <div>
             <BiMessageDetail className="text-7xl text-white" />
@@ -32,7 +32,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* shopTwon footer */}
       <div className="flex justify-between h-[15vh] mx-24 mt-10">
@@ -204,7 +204,86 @@ const Footer = () => {
       </div>
       <div className="border-solid border-[1px] border-green-600 mt-20 container mx-auto"></div>
       {/* brands */}
-      <div></div>
+      <div className="flex gap-2 container mx-auto mt-8">
+        <div className="mr-6 w-32">
+          <h1 className="text-lg font-semibold tracking-widest">Brands : </h1>
+        </div>
+
+        <div className="flex flex-wrap divide-x divide-gray-300 text-[14px] max-w-full">
+          <p className="px-2 tracking-widest">Apple</p>
+          <p className="px-2 whitespace-nowrap tracking-widest">Axis Bank</p>
+          <p className="px-2 tracking-widest">Bajaj</p>
+          <p className="px-2 tracking-widest">Canon</p>
+          <p className="px-2 tracking-widest">Celkon</p>
+          <p className="px-2 tracking-widest">Fabindia</p>
+          <p className="px-2 tracking-widest">Fastrack</p>
+          <p className="px-2 whitespace-nowrap tracking-widest">
+            Hewlett-Packard
+          </p>
+          <p className="px-2 tracking-widest">HTC</p>
+          <p className="px-2 tracking-widest">Idea</p>
+          <p className="px-2 tracking-widest">Infosys</p>
+          <p className="px-2 tracking-widest">Kenstar</p>
+          <p className="px-2 tracking-widest">Lakme</p>
+          <p className="px-2 tracking-widest">Lenovo</p>
+          <p className="px-2 tracking-widest">Nokia</p>
+          <p className="px-2 tracking-widest">Palm</p>
+          <p className="px-2 whitespace-nowrap tracking-widest">Quick Heal</p>
+          <p className="px-2 tracking-widest">Samsung</p>
+          <p className="px-2 tracking-widest">Sony</p>
+          <p className="px-2 tracking-widest">TCS</p>
+          <p className="px-2 tracking-widest">Videocon</p>
+          <p className="px-2 tracking-widest">Voltas</p>
+        </div>
+      </div>
+
+      {/* footer Last */}
+      <div>
+        <div className="flex justify-between items-center px-20 bg-[#EFEFEF] h-20 mt-10">
+          <div>
+            <h1 className="text-base tracking-widest">
+              Powered By OpenCart Your Store © 2024
+            </h1>
+          </div>
+          <div className="flex gap-2">
+            <div className="w-12 h-8 rounded-md">
+              <img
+                className="w-full h-full rounded-sm"
+                src="https://i.ibb.co.com/BBHKKn9/q5.jpg"
+                alt=""
+              />
+            </div>
+            <div className="w-12 h-8 rounded-md">
+              <img
+                className="w-full h-full rounded-sm"
+                src="https://i.ibb.co.com/p67GL7N/q3.png"
+                alt=""
+              />
+            </div>
+            <div className="w-12 h-8 rounded-md">
+              <img
+                className="w-full h-full rounded-sm"
+                src="https://i.ibb.co.com/nmSnvhz/q4.png"
+                alt=""
+              />
+            </div>
+            <div className="w-12 h-8 rounded-md">
+              <img
+                className="w-full h-full rounded-sm"
+                src="https://i.ibb.co.com/BBHKKn9/q5.jpg"
+                alt=""
+              />
+            </div>
+            <div className="w-12 h-8 rounded-md">
+              <img
+                className="w-full h-full rounded-sm"
+                src="https://i.ibb.co.com/BBHKKn9/q5.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

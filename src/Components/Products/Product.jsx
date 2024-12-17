@@ -16,8 +16,8 @@ const Product = () => {
   return (
     <div>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
+        slidesPerView={4}
+        spaceBetween={1}
         freeMode={true}
         pagination={{
           clickable: true,
