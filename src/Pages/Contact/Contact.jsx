@@ -9,18 +9,18 @@ const Contact = () => {
   return (
     <div>
       <div className="flex justify-between">
-        <div className="w-[25%] border-solid border-2 border-indigo-600">
+        <div className="w-[25%]">
             <div className="w-[90%] mx-auto h-[45vh]">
                 <Shop_left/>
             </div>
-            <div className="w-[90%] mx-auto h-[60vh] border">
-                <img className="w-full h-full object-contain bg-cover" src="https://i.ibb.co.com/tKMf5sV/g11.gif" alt="" />
+            <div className="w-[90%] mx-auto h-[50vh] border rounded-md">
+                <img className="w-full h-full object-contain bg-cover rounded-md" src="https://i.ibb.co.com/PWc8Xd7/g17.gif" alt="" />
             </div>
-            <div className="w-[90%] mx-auto h-[25vh] border-solid border-2 border-indigo-600 mt-20">
-                <img className="w-full h-full" src="https://i.ibb.co.com/j80x2Gr/logo.png" alt="" />
+            <div className="w-[90%] mx-auto h-[30vh] mt-10 border">
+                <img className="w-full h-full bg-cover object-cover" src="https://i.ibb.co.com/jVZWWMv/g15.webp" alt="" />
             </div>
         </div>
-        <div className="w-[72%] border-solid border-2 border-indigo-600">
+        <div className="w-[72%]">
           <div className="flex justify-between w-[95%] mt-7">
             <div>
               <h1 className="text-xl mb-5 tracking-widest font-semibold">
