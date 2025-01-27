@@ -13,42 +13,7 @@ const Search = () => {
                 <FaAngleDown className="text-lg font-semibold text-white transform transition-transform duration-500 group-open:rotate-180" />
               </h1>
             </summary>
-            {/* <ul className="menu dropdown-content bg-base-100 z-[1] p-2 shadow w-full overflow-hidden transition-max-height duration-500 max-h-0 group-open:max-h-40">
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 2</a>
-              </li>
-            </ul> */}
-
+            
             <ul className="menu dropdown-content bg-base-100 z-[1] p-2 shadow w-full overflow-y-auto transition-max-height duration-500">
               <li className="w-full">
                 <a className="block">Item 1</a>

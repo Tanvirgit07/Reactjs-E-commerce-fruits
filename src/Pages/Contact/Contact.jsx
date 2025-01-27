@@ -21,9 +21,9 @@ const Contact = () => {
             </div>
         </div>
         <div className="w-[72%]">
-          <div className="flex justify-between w-[95%] mt-7">
+          <div className="flex justify-between mb-5 w-[95%] mt-7">
             <div>
-              <h1 className="text-xl mb-5 tracking-widest font-semibold">
+              <h1 className="text-xl tracking-widest font-semibold">
                 CONTACT US
               </h1>
             </div>
